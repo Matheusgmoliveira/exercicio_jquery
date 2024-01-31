@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 16px;
+}
+
+header img {
+    width: 36px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+header h1 {
+    height: 36px;
+    font-weight: bold;
+    
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+form button{
+    border: none;
+    margin-left: 16px;
+    padding: 8px;
+    background-color: rgb(255, 145, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+ul li {
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li a:disabled{
+    text-decoration: line-through
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+} 
+
+.linha-atravessada {
+    text-decoration: line-through;
+}
